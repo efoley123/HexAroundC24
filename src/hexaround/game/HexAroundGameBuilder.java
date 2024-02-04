@@ -29,7 +29,7 @@ public class HexAroundGameBuilder {
         GameConfiguration configuration = configurationMaker.makeConfiguration();
 
         // TODO: Use the configuration to build your game manager
-
+        //myHexAroundGame game = new myHexAroundGame();
         return null;
     }
 }
