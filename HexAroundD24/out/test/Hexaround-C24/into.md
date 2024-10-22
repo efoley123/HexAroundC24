@@ -1,0 +1,34 @@
+# Placeholder for tests
+All of your tests should be in this directory. There should be a 
+`hexaround` package where the root of your tests will be. Your test
+packages should mirror the appropriate packages in the src file.
+
+| ID  | Done | Description                                                                                                                                                                                                      |
+|:---:|:----:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| T1  |  X   | Testing getCreatureAt                                                                                                                                                                                            |
+| R1  |  X   | Created Entity folder which holds Board, Creature, Player, CreatureName, and PlayerName. And filled in Player and Creature with methods                                                                          |
+| T2  |  X   | tested hasProperty                                                                                                                                                                                               |
+| T3  |  X   | tested isOccupied                                                                                                                                                                                                |
+| T4  |  X   | tested canReach                                                                                                                                                                                                  |
+| T5  |  X   | tested placeCreature                                                                                                                                                                                             |
+| R2  |  X   | Added in a method in Creature to change the location of a creature and gave creature x and y variables                                                                                                           |
+| T6  |  X   | Tested MoveResponse                                                                                                                                                                                              |
+| R3  |  X   | Added in MoveResponse and MoveResult usage in the HexAroundFirstSubmission methods moveCreature and placeCreature                                                                                                |
+| T7  |  X   | tested for a disconnected colony                                                                                                                                                                                 |
+| R4  |  X   | Based on the second submission, fixed placeCreature and moveCreature to see a disconnected colony. Made a Node and Search java class for dealing with movement. Added in a wholeConnected method in Search class |
+| T8  |  X   | test for moving a creature to it's max distance                                                                                                                                                                  |
+| R5  |  X   | made a method to get the creature's max distance                                                                                                                                                                 |
+| T9  |  X   | tested the walking, jumping, and flying which are needed up to level 2  and that the butterfly was placed before the 4th turn                                                                                    |
+| R6  |  X   | added a method in Creature to see if a property matches one of the ones in the Creatures list. Added a counter variable in board.                                                                                |
+| T10 |  X   | tested if the game was won by a player                                                                                                                                                                           |
+| R7  |  X   | added a method to get all neighbors of a hexagon no matter the player's team                                                                                                                                     |
+| T11 |  X   | tested draggability of a walking creature                                                                                                                                                                        |
+| R8  |  X   | added in a helper method in search which checks if a hexagon and another hexagon share a neighbor with doesn't have a creature on it                                                                             |
+| T12 |  X   | kamikaze Test                                                                                                                                                                                                    |
+| R9  |  X   | Made a method in Player to remove a creature from a player, altered helper method for BFS2 to accept creatures who have the property kamikaze                                                                    |
+| T13 |  X   | tested the red team winning in a different scenario                                                                                                                                                              |  
+| T14 |  X   | tested the blue team winning in a different scenario                                                                                                                                                             |
+| T15 |  X   | tested the placeCreature method more thourghly                                                                                                                                                                   |
+| T16 |  X   | tested the kamikaze but with the creature having the Jumping ability                                                                                                                                             |
+| R10 |  X   | Added the kamikaze to be accepted with the jumping ability                                                                                                                                                       |
+| T17 |  X   | Added a walking kamikaze which was not being tested for before                                                                                                                                                   |
